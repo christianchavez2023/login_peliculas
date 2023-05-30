@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="292dp"
+        android:layout_height="547dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="107dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión" />
+
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email o numero de contraseña"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtcontraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Contraseña"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnsesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar sesión" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recuérdame                ¿Necesitas ayuda?   " />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Esta pagina esta protegida por Google reCAPTCHA para comprobar que no eres un robot." />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
